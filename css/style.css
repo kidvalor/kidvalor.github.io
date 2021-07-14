@@ -1,0 +1,228 @@
+.backshot {
+    margin-left: 200px;
+    padding: 0px 10px;
+    background-position: bottom;
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+    background-image: url(../images/backgroundfade.png);
+  }
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.topnav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url(../images/background.jpg);
+  overflow-x: hidden;
+  padding-top: 20px
+}
+
+.topnav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+img.home{
+  -webkit-flex: 1;
+  flex: 1;
+  max-height: 100px;
+  max-width; 100px;
+  position: relative;
+  right: 15px;
+}
+img.shop {
+  -webkit-flex: 2;
+  flex: 2;
+  max-width: 150px;
+  max-height: 80px;
+  position: relative;
+  right: -10px;
+}
+img.blog{
+-webkit-flex: 3;
+flex: 3;
+max-width: 150px;
+max-height: 80px;
+position: relative;
+}
+
+
+img.aboutus {
+  -webkit-flex: 4;
+  flex: 4;
+  max-width: 200px;
+  max-height: 170px;
+  position: relative;
+  right: 15px;
+
+}
+
+img.contact {
+-webkit-flex: 5;
+flex: 5;
+max-width: 180px;
+max-height: 80px;
+position: relative;
+right: 10px;
+top: -20px;
+}
+
+a.city {
+  color: purple;
+}
+a.city:hover {
+  color: black;
+}
+
+.myphoto {
+  width: 800px;
+   margin-left: 500px;
+ }
+
+.AboutMe {
+  background-color: white;
+      width: 800px;
+      height: 200px;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+
+}
+
+#hobby {
+  background-color: white;
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  border: 20px
+  text-align: center;
+  display: block;
+}
+
+h1 {
+  font-family: 'Cedarville Cursive', cursive;
+  color: red;
+}
+
+.AboutP {
+  font-family: 'Zen Loop', cursive;
+}
+
+.my-photo{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   border: 2px solid black;
+}
+
+p{font-size: 20px;}
+
+#blogpost1{
+background-color: yellow;
+    width: 800px;
+    min-height: 200px;
+    text-align: center;
+  right: -230px;
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+  }
+
+  #blogpost2{
+  background-color: white;
+      width: 800px;
+      min-height: 200px;
+      text-align: center;
+    right: -230px;
+      display: inline-block;
+      position: relative;
+      padding: 20px;
+    }
+
+    #blogpost3{
+    background-color: red;
+        width: 800px;
+        min-height: 200px;
+        text-align: center;
+      right: -230px;
+        display: inline-block;
+        position: relative;
+        padding: 20px;
+      }
+
+      #blogpost4{
+      background-color: green;
+          width: 800px;
+          min-height: 200px;
+          text-align: center;
+        right: -230px;
+          display: inline-block;
+          position: relative;
+          padding: 20px;
+        }
+h3.blogheading {font-family: 'Mate', serif;}
+
+p.blogcontent, li.blogcontent {font-family: 'Open Sans Condensed', sans-serif;}
+
+#nike:hover {color: yellow;}
+
+.shoes {
+  font-family: 'Qahiri', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+#shoepost {
+  color: red
+}
+
+#blogpost1, #blogpost2, #blogpost3, #blogpost4 {
+  border: dotted;
+}
+
+h4{
+  font-family: 'Tourney', cursive;
+}
+
+h3{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 40px;
+}
+
+form {
+  border: 2px solid black;
+  background-color: yellow;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+width: 200px;
+}
+
+.list {
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+h2 {
+  font-size: 80px;
+}
